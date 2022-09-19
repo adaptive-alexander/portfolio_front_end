@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 169.67 169.67"
+   data-name="Lager 1"
+   id="Lager_1">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Adaptive log A svg</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#030f40;}</style>
+  </defs>
+  <title
+     id="title6">Adaptive log A svg</title>
+  <g
+     id="layer2">
+    <path
+       id="path4572"
+       d="M 149.54,139.74 143.6084,51.583993 93.102817,21.20875 43.855381,27.49948 23.006101,85.194469 48.34876,141.45158 119.34415,151.15728 145.23,144.45 c 1.31688,-1.31713 2.72419,-2.82514 4.31,-4.71 z"
+       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="layer1">
+    <path
+       id="path8"
+       transform="translate(-21.34,-22.18)"
+       d="M143.21,141.05a42,42,0,1,1,4.07-28.81,67,67,0,0,0,1.82-8.38l.21-1.47a47.64,47.64,0,0,0-.84-17c-4.64-19.15-21.24-31.53-42.3-31.53A50.85,50.85,0,0,0,57.59,89.23L56.71,92l-5.5-1.76.89-2.75a56.59,56.59,0,0,1,54.07-39.42c23.82,0,42.62,14.11,47.91,35.94a53,53,0,0,1,1.08,17.84s-.09.75-.19,1.69c-.14,1.3-.61,3.66-.61,3.66a76.81,76.81,0,0,1-4.25,14.62L148.82,126l-.48,1.82a27.44,27.44,0,0,0-.52,4.27,30.76,30.76,0,0,0,23.06,29.83,84.87,84.87,0,1,0-4.31,4.71A36.67,36.67,0,0,1,143.21,141.05Z"
+       class="cls-1"
+       style="" />
+    <path
+       transform="translate(-21.34,-22.18)"
+       id="path10"
+       d="M106.27,84.93a36.21,36.21,0,1,0,36.21,36.21A36.25,36.25,0,0,0,106.27,84.93Z"
+       class="cls-1"
+       style="" />
+  </g>
+</svg>
