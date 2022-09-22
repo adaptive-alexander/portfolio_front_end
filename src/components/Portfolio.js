@@ -13,7 +13,7 @@ function Portfolio() {
                 As such a large portion of time was spent developing statistical models, including machine learning, as
                 well as building data pipelines and infrastructure for large analytical workloads. The portfolios repo
                 can be found <a target="_blank" rel="noreferrer"
-                                href="https://github.com/adaptive-alexander/portfolio/">here</a>.</p>
+                                href="images/frontend/src/components/Portfolio">here</a>.</p>
             <h2>Projects</h2>
             <p>The projects, as well as this website, are run on cloud infrastructure (GCP) powered by Kubernetes. The
                 front-end is a React app, while the back-end is an Actix web server running a GraphQL API, with
