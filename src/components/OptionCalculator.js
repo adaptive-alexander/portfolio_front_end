@@ -10,8 +10,8 @@ import {Link} from "@mui/material";
 
 const FileDownload = require('js-file-download');
 
-// const baseURL = "https://api.alexander.hyll.nu";
-const baseURL = "http://localhost:8080";
+const baseURL = "https://api.alexander.hyll.nu";
+// const baseURL = "http://localhost:8080";
 
 function getSampleFile() {
     return axios.get(`${baseURL}/opt_sample_file`,

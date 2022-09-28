@@ -8,8 +8,8 @@ import axios from "axios";
 
 const FileDownload = require('js-file-download');
 
-// const baseURL = "https://api.alexander.hyll.nu";
-const baseURL = "http://localhost:8080";
+const baseURL = "https://api.alexander.hyll.nu";
+// const baseURL = "http://localhost:8080";
 
 const fileTypes = ["CSV"];
 
