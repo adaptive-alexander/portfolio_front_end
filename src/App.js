@@ -2,6 +2,7 @@ import Headshot from './components/Headshot';
 import OptionCalculator from "./components/OptionCalculator";
 import Portfolio from "./components/Portfolio";
 import DataPipeline from "./components/DataPipeline";
+import Cards from "./components/Cards";
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -18,6 +19,11 @@ function App() {
                         </Col>
                         <Col lg={9}>
                             <Portfolio />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Cards />
                         </Col>
                     </Row>
                     <Row>

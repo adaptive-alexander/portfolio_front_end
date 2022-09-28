@@ -5,7 +5,21 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FileUpload from "./FileUpload";
+import axios from "axios";
+import {Link} from "@mui/material";
 
+const FileDownload = require('js-file-download');
+
+// const baseURL = "https://api.alexander.hyll.nu";
+const baseURL = "http://localhost:8080";
+
+function getSampleFile() {
+    return axios.get(`${baseURL}/opt_sample_file`,
+        {responseType: "blob"}
+    ).then((response) => {
+        FileDownload(response.data, 'Sample.csv');
+    });
+}
 
 function OptionCalculator() {
     return (
@@ -19,8 +33,8 @@ function OptionCalculator() {
                             large simulations of investment opportunities and risk simulations, typically in the
                             hundreds of millions of options contracts. Each contract takes approximately 80ns to
                             calculate including price and greeks (on CPU in parallel). Performance could be improved by
-                            targeting GPU, but was not necessary for these particular simulations. You can upload a csv
-                            file and get the results below. </p>
+                            targeting GPU, but was not necessary for these particular simulations. You can either upload
+                            your own csv file or get a <span onClick={getSampleFile} className="fakeLink">sample file</span> (2 MB).</p>
                         <p>The file needs to have the following format (free order, names required):</p>
                         <div className="Table">
                             <Table striped bordered hover variant="dark" size="sm" responsive>
@@ -61,12 +75,6 @@ function OptionCalculator() {
             </Row>
             <Row className="Adj-text">
                 <div>
-                    <h3>Process</h3>
-                    <p>Sends a request to the web server which uploads the file to cloud storage, as well as publishing
-                        a message to a Pub/Sub topic. Options-listener is a containerized service subscribing to the
-                        topic. When a new message is received the Options-listener gets information about where the file
-                        is stored and which session to return the output to. The input csv gets downloaded, the Options
-                        library computes values, and the listener returns the file to the user.</p>
                     <p>The equations used are detailed in the Options repo notes, which can be
                         found <a target="_blank" rel="noreferrer"
                                  href="https://github.com/adaptive-alexander/portfolio/tree/main/options/docs">here</a>.

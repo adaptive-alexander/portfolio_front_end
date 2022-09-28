@@ -5,7 +5,7 @@ function DataPipeline() {
     return (
         <div className="Adj-text">
             <h1>Project Two -</h1>
-            <h2>Scraper and Data Pipeline</h2>
+            <h2>Scraper and Data Pipeline (work in progress)</h2>
             <p>The project consists of a complete scraping pipeline. The job is scheduled using a Cronjob
                 specification and then run in Kubernetes. As most hedge funds (95%+) have a monthly liquidation period,
                 the data is only updated at that frequency. The pipeline follows this process:</p>

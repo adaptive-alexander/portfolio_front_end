@@ -5,3 +5,13 @@
 .Adj-text p {
     text-align: justify;
 }
+
+.fakeLink {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.fakeLink:hover {
+    color: #09578E;
+    text-decoration: underline;
+}
