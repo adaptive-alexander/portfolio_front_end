@@ -77,7 +77,7 @@ function OptionCalculator() {
                 <div>
                     <p>The equations used are detailed in the Options repo notes, which can be
                         found <a target="_blank" rel="noreferrer"
-                                 href="https://github.com/adaptive-alexander/portfolio/tree/main/options/docs">here</a>.
+                                 href="https://github.com/adaptive-alexander/portfolio/tree/main/book/src/notebooks">here</a> (notes.ipynb).
                     </p>
                 </div>
             </Row>

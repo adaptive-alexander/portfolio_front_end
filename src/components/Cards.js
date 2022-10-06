@@ -13,34 +13,33 @@ const texts = [
 ]
 const dialogTitle = ["React and Web Frameworks", "Actix, REST and GraphQL", "CI/CD + GitHub Workflows", "Professional Experience"]
 const dialogText = [
-    "Alexander has previous experience in front end development from personal projects. This site is made with React as " +
+    "I has previous experience in front end development from personal projects. This frontend is made with React as " +
     "the foundation, and additional components mostly from Bootstrap and Material UI. The site is run on kubernetes and " +
     "exposed through an ingress and a service. The cert manager for HTTPS is injected through a web hook and also hosted " +
     "on GKE. The frontend and backend are separated and can both be individually scaled as well as providing further " +
-    "redundancy. Previously a native app has also been created using Vue and Tauri, as a JS frontend with a rust backend " +
+    "redundancy. I have also previously created a native app for personal use with Vue and Tauri, as a JS frontend with a rust backend " +
     "which can be cross compiled to most platforms.",
     "Actix is a blazingly fast asynchronous rust web framework (to play buzzword bingo). It benchmarks as one of the " +
-    "currently fastest and most stable web frameworks. Rusts strong typing, along with guaranteed mem safety and fearless" +
-    "concurrency/parallelism make it a very solid candidate for this type of backend technologies. The biggest draw-down" +
-    "of rust currently is being a relatively young kid on the block, so support is not yet stable to all platforms. It" +
-    "is, however, deemed production worthy by several of the largest companies worldwide and support is mounting at " +
-    "incredible speed. For this particular project the relatively lower integration with GCP means there might be reason" +
+    "currently fastest and most stable web frameworks. Rusts strong typing, along with guaranteed guarantees from undefined behaviour and fearless" +
+    "concurrency/parallelism make it a very solid candidate for backend technologies. The biggest draw-down" +
+    "of rust currently is being a relatively young kid on the block, so the ecosystem is not fully fleshed out. " +
+    "For this particular project the relatively lower integration with GCP means there might be reason" +
     "to also containerize Python with a separate API to use more stable client libraries. For any service we can run " +
     "directly on Kubernetes there are no particular limitations.",
     "GitHub workflows makes continuous integration and deployment a breeze. Managing the service on Kubernetes does " +
     "introduce some additional overhead in monitoring, however deployment and particularly being able to test newly " +
-    "developed tools without risking to break the system is a blessing. Also being able to test a close to true " +
+    "developed tools without the risk of breaking the system is a blessing. Being able to test a close to true " +
     "production environment locally can be a lifesaver. First testing is done on a local kubernetes instance. The system " +
-    "is set up so that a GitHub workflow rebuilds the docker images contained on each new tagged commit (and not " +
+    "is set up so that a GitHub workflow rebuilds the docker images on each new tagged commit (and not " +
     "otherwise). Kubernetes manifests are updated and applied to the cluster using kubectl. Kubernetes handles the rest, " +
     "including pulling images, deployment strategy, centralized logging and minimum availability. It is necessary, however, to " +
     "be mindful of following logs and health checks as deployment occurs and be mindful whether rollbacks are necessary.",
-    "Working as a team Adaptive built a rather substantial code base over the last six years. As a large portion was " +
+    "Working as a team, Adaptive built a rather substantial code base over the last six years. As a large portion was " +
     "spent working on the same projects, with a shared library and common elements across all facets of the business " +
     "having well established VCS workflow was crucial. The code base spanned data sourcing, ETL pipelines, databases, " +
     "research applications, research notebooks, simulations and stress tests, risk measures and portfolio structuring. " +
-    "Alexanders primary focus in this was on risk simulations, research notebooks and portfolio structuring. Having founded " +
-    "the company however he had to build large portions of the foundation of strategic components. This included a VaR " +
+    "My primary focus in this was on risk simulations, research notebooks and portfolio structuring. Having founded " +
+    "the company however I was involved in building a large portions of the foundation of strategic components. This included a VaR " +
     "(Value at Risk) and cVaR (conditional VaR) model, an options back-end featuring complex strategy construction with exotic contracts " +
     "as well as backtesting frameworks (programmatic) and a framework (conceptual, not programmatic) for statistical models. " +
     "Adaptive used a test-driven workflow for programmatic interfaces, and an interface-first approach for research models. " +
