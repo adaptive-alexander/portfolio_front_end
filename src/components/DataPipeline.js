@@ -1,5 +1,6 @@
 import React from 'react';
 import './dataPipeline.css'
+import FundTable from "./FundTable";
 
 function DataPipeline() {
     return (
@@ -28,6 +29,9 @@ function DataPipeline() {
                 </li>
             </ol>
             <br/>
+            <div>
+                <FundTable />
+            </div>
         </div>
     );
 }
